@@ -2,6 +2,7 @@
 
 namespace RyanChandler\FilamentProfile\Tests;
 
+use Filament\FilamentServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
@@ -22,6 +23,7 @@ class TestCase extends Orchestra
     {
         return [
             LivewireServiceProvider::class,
+            FilamentServiceProvider::class,
             FilamentProfileServiceProvider::class,
         ];
     }

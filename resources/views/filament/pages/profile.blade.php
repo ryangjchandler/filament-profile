@@ -7,7 +7,7 @@
                 Save
             </x-filament::button>
 
-            <x-filament::button type="button" color="secondary" tag="a" :href="url()->current()">
+            <x-filament::button type="button" color="secondary" tag="a" :href="$this->cancel_button_url">
                 Cancel
             </x-filament::button>
         </div>

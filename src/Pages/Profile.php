@@ -53,6 +53,11 @@ class Profile extends Page implements HasForms
         $this->notify('success', 'Your profile has been updated.');
     }
 
+    public function getCancelButtonUrlProperty()
+    {
+        return static::getUrl();
+    }
+
     protected function getBreadcrumbs(): array
     {
         return [
