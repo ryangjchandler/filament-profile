@@ -29,7 +29,7 @@ This package will automatically register the `Profile` page as a Livewire compon
 
 ```php
 Filament::registerPages([
-    \RyanChandler\FilamentProfile\Pages\Profile::class;
+    \RyanChandler\FilamentProfile\Pages\Profile::class
 ]);
 ```
 
