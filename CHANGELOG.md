@@ -2,6 +2,21 @@
 
 All notable changes to `filament-profile` will be documented in this file.
 
+## v0.1.1 - 2022-01-17
+
+## What's Changed
+
+- Update readme by @shuvroroy in https://github.com/ryangjchandler/filament-profile/pull/1
+- fix: use page url for cancel button by @ryangjchandler in https://github.com/ryangjchandler/filament-profile/pull/3
+- fix: reset password after submitting by @ryangjchandler in https://github.com/ryangjchandler/filament-profile/pull/4
+
+## New Contributors
+
+- @shuvroroy made their first contribution in https://github.com/ryangjchandler/filament-profile/pull/1
+- @ryangjchandler made their first contribution in https://github.com/ryangjchandler/filament-profile/pull/3
+
+**Full Changelog**: https://github.com/ryangjchandler/filament-profile/compare/v0.1.0...v0.1.1
+
 ## v0.1.0 - 2022-01-16
 
 **Full Changelog**: https://github.com/ryangjchandler/filament-profile/commits/v0.1.0
