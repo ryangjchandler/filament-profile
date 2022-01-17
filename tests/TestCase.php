@@ -3,6 +3,7 @@
 namespace RyanChandler\FilamentProfile\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 use RyanChandler\FilamentProfile\FilamentProfileServiceProvider;
 
@@ -20,6 +21,7 @@ class TestCase extends Orchestra
     protected function getPackageProviders($app)
     {
         return [
+            LivewireServiceProvider::class,
             FilamentProfileServiceProvider::class,
         ];
     }
