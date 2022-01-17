@@ -86,19 +86,22 @@ class Profile extends Page implements HasForms
                         ->password()
                         ->rules(['required_with:new_password'])
                         ->currentPassword()
+                        ->autocomplete('off')
                         ->columnSpan(1),
                     Grid::make()
                         ->schema([
                             TextInput::make('new_password')
                                 ->label('New Password')
                                 ->password()
-                                ->rules(['confirmed']),
+                                ->rules(['confirmed'])
+                                ->autocomplete('new-password'),
                             TextInput::make('new_password_confirmation')
                                 ->label('Confirm Password')
                                 ->password()
                                 ->rules([
                                     'required_with:new_password',
-                            ]),
+                                ])
+                                ->autocomplete('new-password'),
                         ]),
                 ]),
         ];
