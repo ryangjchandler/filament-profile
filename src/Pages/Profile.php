@@ -50,6 +50,7 @@ class Profile extends Page implements HasForms
 
         auth()->user()->update($state);
 
+        $this->reset(['current_password', 'new_password', 'new_password_confirmation']);
         $this->notify('success', 'Your profile has been updated.');
     }
 
