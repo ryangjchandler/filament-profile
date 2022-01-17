@@ -2,6 +2,14 @@
 
 All notable changes to `filament-profile` will be documented in this file.
 
+## v0.1.2 - 2022-01-17
+
+## What's Changed
+
+- feature: prevent autocomplete of new password fields by @ryangjchandler in https://github.com/ryangjchandler/filament-profile/pull/5
+
+**Full Changelog**: https://github.com/ryangjchandler/filament-profile/compare/v0.1.1...v0.1.2
+
 ## v0.1.1 - 2022-01-17
 
 ## What's Changed
