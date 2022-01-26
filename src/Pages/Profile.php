@@ -84,7 +84,7 @@ class Profile extends Page implements HasForms
                     TextInput::make('current_password')
                         ->label('Current Password')
                         ->password()
-                        ->rules(['required_with:new_password'])
+                        ->rules(['required_with:new_password', 'password'])
                         ->currentPassword()
                         ->autocomplete('off')
                         ->columnSpan(1),
