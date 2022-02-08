@@ -2,6 +2,14 @@
 
 All notable changes to `filament-profile` will be documented in this file.
 
+## v0.2.0 - 2022-02-08
+
+## What's Changed
+
+- chore: l9 by @ryangjchandler in https://github.com/ryangjchandler/filament-profile/pull/7
+
+**Full Changelog**: https://github.com/ryangjchandler/filament-profile/compare/v0.1.2...v0.2.0
+
 ## v0.1.2 - 2022-01-17
 
 ## What's Changed
