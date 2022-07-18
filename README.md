@@ -28,6 +28,10 @@ php artisan vendor:publish --tag="filament-profile-views"
 This package will automatically register the `Profile` page as a Livewire component, but won't automatically add it to Filament. You should add the following line of code to your `AppServiceProvider::register()` method.
 
 ```php
+use Filament/Facades/Filament; //For filament after v1.x
+
+...
+
 Filament::registerPages([
     \RyanChandler\FilamentProfile\Pages\Profile::class
 ]);
